@@ -22,7 +22,7 @@ knex: dbConnection,
 tablename: 'knexsessions',
 sidfieldname: 'sessionid',
 createtable: true,
-clearInterval: 1000 * 60 * 30 // delete expired sesssions every 10 mins
+clearInterval: 1000 * 60 * 30 // delete expired sesssions every 10 mins.
  })
 };
 
